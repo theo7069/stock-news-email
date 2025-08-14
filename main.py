@@ -46,7 +46,7 @@ if abs(percent_change) >= 5:
         "country": "us",
         'from': date_list[0],
         'sortBy': 'popularity',
-        'apiKey': "0c9dc664842c4a8285536e9d9ceb3a4b",
+        'apiKey': NEWSAPI_KEY,
     }
 
     url = 'https://newsapi.org/v2/top-headlines'
